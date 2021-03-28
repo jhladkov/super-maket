@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
   .about-me-content-inner {
     margin-right: 115px;
@@ -15,11 +15,16 @@
     }
 
     .about-me-content-button {
-      background-color: #FF6464;
+      background-color: gray;
       padding: 9px 20px;
       border: none;
-      color: white;
+      color: #21243D;
       cursor: pointer;
+      transition: all .3s;
+      &:hover{
+        background-color: #FF6464;
+        color: white;
+      }
 
       span {
         font-weight: 500;

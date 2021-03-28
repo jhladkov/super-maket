@@ -2,9 +2,8 @@
   position: fixed;
   right: 0;
   z-index: 12;
-  padding-top: 17px;
+  padding: 17px 33px;
   background-color: #fff;
-  height: 50px;
   width: 100%;
 
   
@@ -18,11 +17,15 @@
   .header-menu {
     .header-menu-list {
       display: flex;
+      flex-wrap: wrap;
 
       .header-menu-list-title {
         padding-right: 33px;
         font-weight: 600;
         font-size: 20px;
+        &:last-child{
+          padding-right: 0;
+        }
 
         .header-menu-list-title-link {
           transition: color .2s;
@@ -37,6 +40,9 @@
 }
 .header-menu-burger{
   display: none;
+}
+.header-use-title{
+  color: #FF6464;
 }
 
 

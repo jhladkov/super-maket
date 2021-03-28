@@ -3,6 +3,10 @@
   .recent-posts-top{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+    .section-title{
+      margin: 0;
+    }
     .recent-posts-top-link{
       text-decoration: underline;
       cursor: pointer;
@@ -16,7 +20,7 @@
     .recent-posts-content-inner{
       padding: 21px;
       background-color: #ffffff;
-      width: 45%;
+      width: calc(50% - 20px);
       .recent-posts-content-wrapper{
 
       }

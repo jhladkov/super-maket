@@ -1,13 +1,19 @@
 .footer{
   display: flex;
   justify-content: center;
+  flex: 0 0 auto;
   .icon-inner{
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    a{
+      margin-right: 20px;
+      &:last-child{
+        margin: 0;
+      }
+    }
   }
   .footer-link{
-    padding-bottom: 50px;
     color: #21243D;
   }
 }
